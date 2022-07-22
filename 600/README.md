@@ -4,5 +4,9 @@ Perhaps you want to save a Docker image rather than a container. If so, go with 
 
 **Note**: you can only save and load Docker images, not containers.
 
+1. Run the command below to save a Docker image (```arithmetic```) to your preferred *.tar* archive (```arm_image.tar```). You can now share the *.tar* archive with other developers so they can load the image.
 
+```
+$ docker save arithmetic > arm_image.tar
+```
 
