@@ -24,7 +24,16 @@ arm_image.tar
 Extracting the contents of the *.tar* archive lets you confirm if the image you saved in the *.tar* archive exists.
 
 ```
+$ cd containers/app/arithmetic
 $ mkdir arm && tar -xf arm_image.tar -C arm
 ```
 
+3. Finally, run the ```tree``` command below to view the directory tree of the image you extracted in the ```~/arm``` directory. ```tree ~/arm```
 
+Below you can see the files and subdirectories inside the directory where you extracted the Docker image.
+
+```
+$ cd containers/app/arithmetic
+$ tree ~/arm
+
+```
