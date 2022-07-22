@@ -22,5 +22,16 @@ put_any_name_here   latest  7ce909a4e1d8  About a minute ago   1.24MB
 
 ```
 $ docker run -i -t put_any_name_here:latest sh
+/ # 
 ```
 
+You can tell by the prompt (```/ #```), you’re now inside the imported image’s shell.
+
+4. Finally, run the command below to see if the image works as expected.
+
+```
+echo $(((20*5)/10))
+10
+```
+
+If the image works, you’ll get an output of 10, as shown above.
