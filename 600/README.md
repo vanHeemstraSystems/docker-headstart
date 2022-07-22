@@ -30,6 +30,11 @@ $ mkdir arm && tar -xf arm_image.tar -C arm
 
 3. Finally, run the ```tree``` command below to view the directory tree of the image you extracted in the ```~/arm``` directory. ```tree ./arm```
 
+**NOTE**: If you do not already have the ```tree``` command, you can instal it as follows:
+
+- On Linux: ```sudo apt install tree```
+- On Mac: ```brew install tree```
+
 Below you can see the files and subdirectories inside the directory where you extracted the Docker image.
 
 ```
