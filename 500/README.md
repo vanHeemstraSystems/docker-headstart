@@ -9,3 +9,11 @@ $ cd containers/app/arithmetic
 $ docker import arithmetic.tar put_any_name_here:latest
 sha256:579843543543u543uto43t0uerp094386i3t436096363
 ```
+
+2. Next, run the below command to list all existing Docker images, so you can verify if a new image exists.
+
+```
+$ docker images
+REPOSITORY          TAG    IMAGE ID       CREATED              SIZE
+put_any_name_here   latest  7ce909a4e1d8  About a minute ago   1.24MB
+```
