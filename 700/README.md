@@ -36,6 +36,7 @@ Deleted: sha256:07547545934654urewre7984357463630568405435389
 ```
 $ cd containers/app/arithmetic
 $ docker load < arm_image.tar
+Loaded image: arithmetic:latest
 ```
 
 
