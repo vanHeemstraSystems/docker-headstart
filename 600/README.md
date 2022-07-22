@@ -38,4 +38,4 @@ $ tree ./arm
 
 ```
 
-**NOTE**: If you plan to share your Docker image on the Docker hub, the best option is to run the docker save command. Why? With the docker save command, you’re essentially saving the image exactly how it’s supposed to run. Also, you can only post images on the Docker hub, so definitely, the docker export command is not a good option.
+**NOTE**: If you plan to share your Docker image on the Docker hub, the best option is to run the ```docker save``` command. Why? With the ```docker save``` command, you’re essentially saving the image exactly how it’s supposed to run. Also, you can only post images on the Docker hub, so definitely, the ```docker export``` command is **not** a good option.
