@@ -31,9 +31,12 @@ See [README.md](./600/README.md)
 
 ## 700 - Loading Docker Images
 
-WE ARE HERE ...
+See [README.md](./700/README.md)
 
-More ...
+## 800 - Conclusion
+Throughout this tutorial, you’ve learned how to export and import containers, as well as loading and saving images. You should now have a foundational knowledge of converting your Docker save images and containers into a shareable form, such as a TAR file.
+
+At some point, you’ll need to share your Docker image or container. Now how do you plan to incorporate this newfound knowledge when working with Docker containers and images, perhaps a backup system?
 
 ## 900 - Install Docker Compose
 
