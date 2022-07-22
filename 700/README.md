@@ -39,4 +39,21 @@ $ docker load < arm_image.tar
 Loaded image: arithmetic:latest
 ```
 
+4. Rerun the ```docker images``` command as you did in step one to list all available images in your machine. ```docker images```
 
+```
+$ docker images
+REPOSITORY          TAG      IMAGE ID       CREATED            SIZE
+arithmetic          latest   930e9171d304   about 1 minute ago   1.24 MB
+```
+
+Above, you can see the newly loaded image.
+
+5. Finally, execute the command below to run and test if the image works.
+
+```
+$ docker run arithmetic
+10
+```
+
+Notice that the command returned a value of ```10```, which indicates the loaded image works.
