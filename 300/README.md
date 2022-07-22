@@ -26,3 +26,25 @@ containers/app/arithmetic/Dockerfile.dev
 $ cd containers/app/arithmetic
 $ docker build -f Dockerfile.dev --tag arithmetic .
 ```
+
+If you are using Linux, you may need to prepend the sudo command to avoid getting a “permission denied” error, like this: ```sudo docker -f Dockerfile.dev build --tag arithmetic .```. Adding the ```sudo``` command elevates the command as administrator.
+
+**Related**: [Troubleshooting Docker Permission Denied Problems](https://adamtheautomator.com/docker-permission-denied/)
+
+You should be able to see the arithmetic Docker image listed:
+
+```
+$ docker images
+REPOSITORY   TAG     IMAGE ID      CREATED       SIZE
+arithmetic   latest  930e9171d304  1 minute ago  1.24MB
+```
+
+3. Execute the command below to run the Docker application you built (arithmetic). Running the Docker app also creates a container for your application automatically.
+
+```
+$ docker run arithmetic
+```
+
+```
+
+```
