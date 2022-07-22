@@ -10,3 +10,11 @@ Perhaps you want to save a Docker image rather than a container. If so, go with 
 $ docker save arithmetic > arm_image.tar
 ```
 
+2. Now, run the command below to create a directory with the name of your choice (```mkdir arm```). But for this demo, the directory is named ```arm```. The command then extracts the image from the *.tar* archive (```-xf arm_image.tar```) to the new directory (```arm```).
+
+
+```
+$ mkdir arm && tar -xf arm_image.tar -C arm
+```
+
+Extracting the contents of the *.tar* archive lets you confirm if the image you saved in the *.tar* archive exists.
