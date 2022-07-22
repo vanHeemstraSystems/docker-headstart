@@ -43,8 +43,7 @@ arithmetic   latest  930e9171d304  1 minute ago  1.24MB
 
 ```
 $ docker run arithmetic
+10
 ```
 
-```
-
-```
+It will return the outcome of the arithmetic (20*5)/10 = 10.
