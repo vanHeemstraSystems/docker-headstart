@@ -28,12 +28,14 @@ $ cd containers/app/arithmetic
 $ mkdir arm && tar -xf arm_image.tar -C arm
 ```
 
-3. Finally, run the ```tree``` command below to view the directory tree of the image you extracted in the ```~/arm``` directory. ```tree ~/arm```
+3. Finally, run the ```tree``` command below to view the directory tree of the image you extracted in the ```~/arm``` directory. ```tree ./arm```
 
 Below you can see the files and subdirectories inside the directory where you extracted the Docker image.
 
 ```
 $ cd containers/app/arithmetic
-$ tree ~/arm
+$ tree ./arm
 
 ```
+
+**NOTE**: If you plan to share your Docker image on the Docker hub, the best option is to run the docker save command. Why? With the docker save command, you’re essentially saving the image exactly how it’s supposed to run. Also, you can only post images on the Docker hub, so definitely, the docker export command is not a good option.
