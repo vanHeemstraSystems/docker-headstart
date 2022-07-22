@@ -7,5 +7,5 @@ Instead of exporting, perhaps you need to import a Docker container that a teamm
 ```
 $ cd containers/app/arithmetic
 $ docker import arithmetic.tar put_any_name_here:latest
+sha256:579843543543u543uto43t0uerp094386i3t436096363
 ```
-
