@@ -34,6 +34,7 @@ Deleted: sha256:07547545934654urewre7984357463630568405435389
 3. Now, run the ```docker load``` command below to load an image from a *.tar* archive (```arm_image.tar```).
 
 ```
+$ cd containers/app/arithmetic
 $ docker load < arm_image.tar
 ```
 
