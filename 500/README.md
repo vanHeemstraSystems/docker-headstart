@@ -30,8 +30,14 @@ You can tell by the prompt (```/ #```), you’re now inside the imported image�
 4. Finally, run the command below to see if the image works as expected.
 
 ```
-echo $(((20*5)/10))
+/ # echo $(((20*5)/10))
 10
 ```
 
 If the image works, you’ll get an output of 10, as shown above.
+
+Escape from the shell as follows:
+
+```
+/ # exit
+```
