@@ -25,6 +25,10 @@ See [README.md](./400/README.md)
 
 See [README.md](./500/README.md)
 
+## 600 - Saving Images via Docker Save Image
+
+See [README.md](./600/README.md)
+
 More ...
 
 ## 900 - Install Docker Compose
