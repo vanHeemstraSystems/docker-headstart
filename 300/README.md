@@ -19,3 +19,10 @@ FROM busybox
 CMD echo $(((20*5)/10))
 ```
 containers/app/arithmetic/Dockerfile.dev
+
+2. Next, open your terminal, and run the docker build command below to build the application named (arithmetic) in the working location (.).
+
+```
+$ cd containers/app/arithmetic
+$ docker build -f Dockerfile.dev --tag arithmetic .
+```
