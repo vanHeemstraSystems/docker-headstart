@@ -22,5 +22,12 @@ arithmetic          latest   930e9171d304   about 1 hour ago   1.24 MB
 
 ```
 $ docker image rm imageID1 imageID2
+Error response from daemon: conflict: unable to delete imageID1 (must be forced) - image is being used by stopped container 81e8cd60496c 
+Error response from daemon: conflict: unable to delete imageID2 (must be forced) - image is being used by stopped container 3bb38d370535
+$ docker image rm imageID1 imageID2 --force
+Untagged: put_any_name_here:latest
+Deleted: sha256:65265645263595747263473472843yryewy35723525745
+Untagged: arithmetic:latest
+Deleted: sha256:07547545934654urewre7984357463630568405435389
 ```
 
