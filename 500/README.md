@@ -17,3 +17,10 @@ $ docker images
 REPOSITORY          TAG    IMAGE ID       CREATED              SIZE
 put_any_name_here   latest  7ce909a4e1d8  About a minute ago   1.24MB
 ```
+
+3. Now execute the ```docker run``` command below to open the shell (```sh```) for the imported image. The container runs interactively and is attached to your terminal (```-i``` and ```-t``` flags).
+
+```
+$ docker run -i -t put_any_name_here:latest sh
+```
+
