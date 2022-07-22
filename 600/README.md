@@ -40,7 +40,16 @@ Below you can see the files and subdirectories inside the directory where you ex
 ```
 $ cd containers/app/arithmetic
 $ tree ./arm
+./arm
+|-- 7f1a798534058436834634648034utoie436943it356939564
+|   |-- VERSION
+|   |-- json
+|   |-- layer.tar
+|--- 9307983269523752835uu578538255hidaas8038432.json
+|--- manifest.json
+|--- repositories
 
+1 directory, 6 files
 ```
 
 **NOTE**: If you plan to share your Docker image on the Docker hub, the best option is to run the ```docker save``` command. Why? With the ```docker save``` command, you’re essentially saving the image exactly how it’s supposed to run. Also, you can only post images on the Docker hub, so definitely, the ```docker export``` command is **not** a good option.
