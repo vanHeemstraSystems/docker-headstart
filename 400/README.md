@@ -14,3 +14,11 @@ CONTAINER ID   IMAGE        COMMAND                   CREATED        STATUS     
 3bb38d370535   arithmetic   "/bin/sh -c 'echo $(..."  6 minutes ago  Exited (0) 6 minutes ago            epic-yalow
 ```
 
+2. Next, run the command below to ```export``` the Docker container of your choice (```container-id```). Replace ```container-id``` with the container ID you noted in step one.
+
+When exporting, you save the filesystem of the container in a *.tar* archive (```arithmetic.tar```).
+
+```
+$ docker export container-id > arithmetic.tar
+```
+
