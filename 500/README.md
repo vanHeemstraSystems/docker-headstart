@@ -41,3 +41,11 @@ Escape from the shell as follows:
 ```
 / # exit
 ```
+
+If you try running the image directly, you’ll get an error, as shown below, since the imported image is a filesystem image.
+
+```
+$ docker run put_any_name_here:latest
+docker: Error response from daemon: No command specified.
+See 'docker run --help'.
+```
