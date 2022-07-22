@@ -23,3 +23,11 @@ $ docker export container-id > arithmetic.tar
 ```
 
 3. Finally, check your project folder (here: containers/app/arithmetic) in your file manager, and you’ll see that a new *.tar* archive has been created (```arithmetic.tar```). Since you’ve exported the container to a *.tar* archive, you can now share it with anyone.
+
+```
+$ cd containers/app/arithmetic
+$ ls -la
+...
+arithmetic.tar
+...
+```
