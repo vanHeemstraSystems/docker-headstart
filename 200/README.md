@@ -9,7 +9,4 @@ This tutorial will be a hands-on demonstration. If you’d like to follow along,
 
 ## 100 - Upgrading to a newer version of Docker
 
-On RHEL7:
-
-See also https://docs.docker.com/engine/install/rhel/
-
+See [README.md](./100/README.md)
