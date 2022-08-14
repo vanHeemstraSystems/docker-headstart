@@ -37,6 +37,6 @@ Server: Docker Engine - Community
   GitCommit:        fec3683
 ```
 
-**NOTE**: The prompt may be different depending on the current versio of Docker on *your* server.
+**NOTE**: The prompt may be different depending on the current version of Docker on *your* server.
 
 
