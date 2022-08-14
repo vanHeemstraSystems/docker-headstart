@@ -55,3 +55,46 @@ $ sudo yum remove docker \
                   podman \
                   runc
 ```
+
+Your prompt may look like thsi:
+
+```
+Loaded plugins: product-id, search-disabled-repos, subscription-manager
+No Match for argument: docker
+No Match for argument: docker-client
+No Match for argument: docker-client-latest
+No Match for argument: docker-common
+No Match for argument: docker-latest
+No Match for argument: docker-latest-logrotate
+No Match for argument: docker-logrotate
+No Match for argument: docker-engine
+No Match for argument: podman
+Resolving Dependencies
+--> Running transaction check
+---> Package containerd.io.x86_64 0:1.6.6-3.1.el7 will be erased
+--> Processing Dependency: containerd.io >= 1.2.2-3 for package: 3:docker-ce-19.03.8-3.el7.x86_64
+--> Running transaction check
+---> Package docker-ce.x86_64 3:19.03.8-3.el7 will be erased
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+============================================================================================================================================================================
+ Package                                  Arch                              Version                                      Repository                                    Size
+============================================================================================================================================================================
+Removing:
+ containerd.io                            x86_64                            1.6.6-3.1.el7                                @puppet-docker-ce                            125 M
+Removing for dependencies:
+ docker-ce                                x86_64                            3:19.03.8-3.el7                              @puppet-docker-ce                            104 M
+
+Transaction Summary
+============================================================================================================================================================================
+Remove  1 Package (+1 Dependent package)
+
+Installed size: 229 M
+Is this ok [y/N]:
+```
+
+Confirm by typing ```yes``` followed by the ENTER button.
+
+
