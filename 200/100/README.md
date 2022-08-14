@@ -4,6 +4,8 @@
 
 See also https://docs.docker.com/engine/install/rhel/
 
+### Check current Docker version
+
 After having logged into the server that hosts Docker (by using ```$ ssh FULLY_QUALIFIED_DOMAIN_NAME or HOST_IP_ADDRESS```), check the current version of Docker.
 
 ```
@@ -39,4 +41,17 @@ Server: Docker Engine - Community
 
 **NOTE**: The prompt may be different depending on the current version of Docker on *your* server.
 
+## Uninstall Old Versions
 
+```
+$ sudo yum remove docker \
+                  docker-client \
+                  docker-client-latest \
+                  docker-common \
+                  docker-latest \
+                  docker-latest-logrotate \
+                  docker-logrotate \
+                  docker-engine \
+                  podman \
+                  runc
+```
